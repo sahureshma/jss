@@ -10,9 +10,11 @@ function App() {
 
   }
   function handleclick(){
+    if (count > 0) {
+      setCount(count - 1);
+    }
+
     
-    const newCount=count-1
-    setCount(newCount)
 
    
        
@@ -21,9 +23,10 @@ function App() {
 
   return (
     <div className="App">
-      <h4>count is:</h4>
-      <h4>{count}</h4>
-      <h1>{count}</h1>
+      <h1 style={{color:'blue'}}>count Increase and Decrease</h1>
+      <h1 style={{color:'red'}}>Count: {count}</h1>
+     
+     
       <button onClick={handclick}>Increase the count</button>
       <button onClick={handleclick}>Decrease the count</button>
   
