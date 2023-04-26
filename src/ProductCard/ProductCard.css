@@ -1,0 +1,19 @@
+.Product{
+    width: 250px;
+    height:auto;
+    background-color: rgb(56, 112, 172);
+    padding: 40px;
+    margin: 50px;
+    box-shadow: rgb(6, 95, 10);
+    text-align: center;
+    border: 2px saddlebrown;
+    box-shadow: 4px 4px 4px 4px rgb(209, 94, 94);
+    justify-content: space-around;
+    
+    }
+    .App{
+    display: flex;
+    }
+    .App2{
+      display: flex;
+    }
