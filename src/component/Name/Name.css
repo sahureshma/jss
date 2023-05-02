@@ -1,0 +1,13 @@
+.primary{
+    background-color: rgb(42, 136, 165);
+    height: 200px;
+   
+    cursor: pointer;
+}
+button{
+    margin:15px;
+    background-color: chartreuse;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+}
