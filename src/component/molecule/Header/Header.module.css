@@ -1,0 +1,41 @@
+
+
+.navOption{
+    display: none;
+    justify-content: space-around;
+ 
+
+
+}
+.menu{
+    font-size: 3rem;
+    color: rgb(235, 167, 135);
+}
+
+
+
+@media screen and (min-width : 768px) {
+  
+    .navOption {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 1.5rem;
+        color:black;
+        background-color: blue;
+        border: solid 1px;
+    
+    }
+    .menu{
+        display: none;
+       
+    }
+    button{
+        border-radius: 15px;
+        height: 30px;
+        
+    }
+  
+
+    
+}

@@ -1,0 +1,36 @@
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+ 
+  }
+  
+  .heroImage {
+    flex: 1;
+  }
+  
+  .heroData {
+    flex: 1;
+    padding: 0 50px;
+    text-align: center;
+   
+  }
+  
+  @media (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+      margin-top: 20px;
+      background-color: blueviolet;
+    }
+  
+    .heroImage {
+      order: 2;
+    }
+  
+    .heroData {
+      order: 1;
+      padding: 20px;
+    }
+  }
