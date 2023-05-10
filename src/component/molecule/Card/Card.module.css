@@ -5,9 +5,8 @@
     margin: auto;
     padding: 2rem ;
     max-width: 70%;
-    
-     overflow: hidden; 
     overflow: scroll;
+   
     background-color: rgb(58, 50, 205);   
     
 }
