@@ -14,6 +14,10 @@ function App() {
   function handleAbout(){
     nevigate('/About')
   }
+  function handleHome(){
+    nevigate('/Home')
+  }
+
 
 
   return (
@@ -21,6 +25,7 @@ function App() {
      <button onClick={hanldeLogin}>login</button> 
      <button onClick={handleRegister}>Register</button>
      <button onClick={handleAbout}>About us</button>
+     <button onClick={handleHome}>Home</button>
      
 
     </div>
