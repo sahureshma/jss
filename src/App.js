@@ -1,23 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+import {useNavigate ,Link} from 'react-router-dom'
 
 function App() {
+  const nevigate = useNavigate()
+
+  function hanldeLogin () {
+    nevigate('/login')
+  }
+  function handleRegister () {
+    nevigate('/register')
+  }
+  function handleAbout(){
+    nevigate('/About')
+  }
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <button onClick={hanldeLogin}>login</button> 
+     <button onClick={handleRegister}>Register</button>
+     <button onClick={handleAbout}>About us</button>
+     
+
     </div>
   );
 }
