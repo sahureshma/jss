@@ -1,25 +1,29 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import Student from './component/Student';
+import Admin from './component/Admin';
+import Quiz from './QuizApplication/Quiz';
 import './App.css';
 
-function App() {
+const App = () => {
+  const [selectedAnswers, setSelectedAnswers] = useState([]);
+
+  const handleCheckAnswer = (questionIndex, selectedOptionIndex) => {
+    setSelectedAnswers((prevSelectedAnswers) => {
+      const updatedSelectedAnswers = [...prevSelectedAnswers];
+      updatedSelectedAnswers[questionIndex] = selectedOptionIndex;
+      return updatedSelectedAnswers;
+    });
+  };
+
+ 
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='exam'>
+      <h1> Online Examination</h1>
+      <Admin/>
+    <Quiz/>
     </div>
   );
-}
+};
 
 export default App;
