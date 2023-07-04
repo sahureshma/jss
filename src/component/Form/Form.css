@@ -1,0 +1,49 @@
+*{
+    background-color: skyblue;
+}
+.form-group {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  input[type='text'],
+  input[type='number'] {
+    width: 30%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color:rgb(137, 235, 135);
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color:rgb(222, 135, 196);
+    border-radius: 10px;
+  }
+  
+  .student-table {
+    margin-top: 1rem;
+    border-collapse: collapse;
+    width: 100%;
+   
+  }
+  
+  .student-table th,
+  .student-table td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    background-color:white;
+   
+
+  }
+  
+  .student-table th {
+    background-color: rgb(158, 135, 235);
+  }
+  
+  .student-table td {
+    text-align: center;
+  }
