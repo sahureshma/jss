@@ -1,0 +1,57 @@
+*{
+    background-color: rgb(212, 235, 135);
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  
+  h1 {
+    text-align: center;
+   
+  }
+  
+  form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    
+  }
+  
+  input[type='text'],
+  input[type='email'] {
+    padding: 5px;
+    width: 200px;
+    background-color:white;
+    color:black;
+    text-decoration-color: black;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: rgb(110, 46, 139);
+    border-radius: 10px;
+    border-color: 1px solid black;
+  }
+  
+  .user-list {
+    border: 1px solid #154378;
+    padding: 10px;
+  }
+  
+  .user-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .user-item:last-child {
+    border-bottom: none;
+   
+  }
+  
+  .user-actions button {
+    margin-left: 5px;
+   
+  }
