@@ -1,0 +1,53 @@
+ /* CSS for User Component */
+ .user-container {
+    margin-bottom: 20px;
+  }
+  
+  .user-container h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .user-container p {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .user-container button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .user-container button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .user-form {
+    margin-bottom: 20px;
+  }
+  
+  .user-form input,
+  .user-form textarea {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  .user-form button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .user-form button:hover {
+    background-color: #45a049;
+  }

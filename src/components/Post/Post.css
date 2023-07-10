@@ -1,0 +1,55 @@
+.post-container {
+  margin-bottom: 20px;
+ 
+}
+
+.post-container h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.post-container p {
+  font-size: 14px;
+  color: #888;
+}
+
+.post-container button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.post-container button:hover {
+  background-color: #d32f2f;
+}
+
+.post-form {
+  margin-bottom: 20px;
+}
+
+.post-form input,
+.post-form textarea {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.post-form button {
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.post-form button:hover {
+  background-color: #45a049;
+}
+  
+ 
