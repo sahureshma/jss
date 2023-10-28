@@ -1,0 +1,25 @@
+#canvas {
+    margin: 10px auto;
+    display: block;
+   
+  }
+  
+  a {
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    text-decoration: none;
+    color: #48ff00;
+    cursor: pointer;
+    
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .text {
+    font-weight: bold;
+    font-size: larger;
+ 
+  }
